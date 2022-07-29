@@ -7,11 +7,11 @@ body {
 
 .header {
     background: #1f2937;
+    padding: 0 250px;
+    height: 75px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 250px;
-    height: 50px;
     flex-shrink: 0;
 }
 
@@ -140,7 +140,8 @@ li {
 
 .section4 {
     height: 400px;
-
+    display: flex;
+    align-items: center;
 }
 
 .section4-container {
@@ -148,14 +149,44 @@ li {
     border: 1px solid #3882f6;
     background: #3882f6;
     color: #f9faf8;
+    margin: 0 250px;
+    display: flex;
+    height: 200px;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 200px;
 }
 
 .section4-maintext {
     font-weight: bold;
-    font-size: 18px;
+    font-size: 24px;
 }
 
 .section4-text {
     font-size: 18px;
     color: #e5e7eb;
+}
+
+.section4 button {
+    background: #3882f6;
+    border-radius: 8px;
+    color: #f9faf8;
+    padding: 8px 16px;
+    border: 1px solid #f9faf8;
+    font-weight: bold;
+}
+
+.footer {
+    background: #1f2937;
+    padding: 0 250px;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.footer-content {
+    color: #f9faf8;
 }
